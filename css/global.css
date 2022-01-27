@@ -1,11 +1,57 @@
 * {
   font-family: Verdana, sans-serif;
+  /* border: 1px dashed black; */
+  box-sizing: border-box;
 }
 
-/* NAV BAR */
+body {
+  margin: 0;
+}
 
+/* HEADER */
 
+header {
+  background-color: #FFFFFF;
+}
 
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80rem;
+  margin: 0 auto;
+}
 
+.logo-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #335576
+}
+
+.logo-title {
+
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-list__item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-list__link {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-list__item--active {
+  border-bottom: 2px solid #DB7A4E;
+}
 
 /* FOOTER  */
