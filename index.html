@@ -8,28 +8,74 @@
   <title>Travel Site - Home Page</title>
 </head>
 <body>
-  <nav>
-    <div class="logo">
+  <header>
+    <nav>
+      <div class="logo-container">
+        <h3 class="nav-logo">Travel Site</h3>
+      </div>
+      <ul class="nav-links">
+        <li class="nav-link">Home</li>
+        <li class="nav-link">Hawaii</li>
+        <li class="nav-link">Iceland</li>
+        <li class="nav-link">Greece</li>
+      </ul>
+    </nav>
 
+    <div class="hero">
+      <div class="hero__card">
+        <h1>Travelling Comes With Endless Discoveries</h1>
+        <p>Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
+        <button class="get-started-btn">Get started</button>
+      </div>
+      <img class="hero__img" src="assets/Images/hero.png" alt="airplane around the globe">
     </div>
-    <ul class="nav-links">
-      <li>Home</li>
-      <li>Hawaii</li>
-      <li>Iceland</li>
-      <li>Greece</li>
-    </ul>
-  </nav>
+  </header>
 
-  <div class="hero">
-
-  </div>
-
-  <section class="recommendations">
-
-  </section>
+  <main>
+    <section class="recommendations">
+      <h2>Recommendations</h2>
+      <div class="card-container">
+        <div class="dest-card dest-card--hawaii">
+          <a href="pages/hawaii.html"></a>
+        </div>
+        <div class="dest-card dest-card--iceland">
+          <a href="pages/iceland.html"></a>
+        </div>
+        <div class="dest-card dest-card--greece">
+          <a href="pages/greece.html"></a>
+        </div>
+    </section>
+  </main>
 
   <footer>
-
+    <div class="footer-card">
+      <h2 class="footer-card__title">Contact</h2>
+      <p class="footer-card__subtitle">EMAIL</p>
+      <p class="footer-card__info">info@travelsite.com</p>
+    </div>
+    <div class="footer-card">
+      <h2 class="footer-card__title">Hours</h2>
+        <div class="footer-card__week">
+          <p class="footer-card__subtitle">MONDAY - FRIDAY</p>
+          <p class="footer-card__info">9:00 AM - 5:00 PM</p>
+        </div>
+        <div class="footer-card__sat">
+          <p class="footer-card__subtitle">SATURDAY</p>
+          <p class="footer-card__info">10:00 AM - 4:00 PM</p>
+        </div>
+        <div class="footer-card__sun">
+          <p class="footer-card__subtitle">SUNDAY</p>
+          <p class="footer-card__info">Closed</p>
+        </div>
+    </div>
+    <div class="footer-card">
+      <h2 class="footer-card__title">Social</h2>
+      <div class="social-container">
+        <a href="https://www.instagram.com/"><img src="./assets/Icons/icon-instagram.png" alt="Instagram" class="instagram-icon"></a>
+        <a href="https://www.facebook.com/"><img src="./assets/Icons/icon-facebook.png" alt="Facebook" class="facebook-icon"></a>
+        <a href="https://twitter.com/"><img src="./assets/Icons/icon-twitter.png" alt="Twitter" class="twitter-icon"></a>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
