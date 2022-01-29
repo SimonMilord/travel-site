@@ -6,6 +6,7 @@
 
 body {
   margin: 0;
+  height: 100%;
 }
 
 /* HEADER */
@@ -44,13 +45,15 @@ header {
 .nav-list__item {
   display: inline-block;
   align-items: center;
+  justify-content: center;
   margin: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
 }
 
 .nav-list__link {
   text-decoration: none;
   color: black;
+  font-size: 0.875rem
 }
 
 .nav-list__item--active {
@@ -106,10 +109,6 @@ footer {
   max-width: 2rem;
   max-height: 2rem;
   margin-right: 2rem;
-}
-
-.footer-card--time {
-  /* padding: 2rem; */
 }
 
 .footer-card__week {
