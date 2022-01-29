@@ -10,7 +10,6 @@ body {
 }
 
 /* HEADER */
-
 header {
   background-color: #FFFFFF;
 }
@@ -61,7 +60,6 @@ header {
 }
 
 /* FOOTER  */
-
 footer {
   background-color: #FEFAF5;
   color: #335576;
@@ -70,6 +68,7 @@ footer {
   justify-content: center;
 
 }
+
 .footer-container {
   display: flex;
 }
