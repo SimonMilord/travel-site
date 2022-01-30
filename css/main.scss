@@ -1,4 +1,5 @@
 @use './variables' as *;
+@use './mixin' as *;
 
 /* HERO SECTION */
 .hero {
@@ -84,14 +85,11 @@
           align-items: flex-end;
           justify-content: flex-end;
           border: 1px solid rgb(0 0 0 / 0.2);
-          border-radius: 5px;
-          width: 15.625rem;
-          height: 24rem;
+          @include card;
           box-shadow: 0px 4px 4px rgb(0 0 0 / 0.2);
           background-repeat: no-repeat;
           background-position: center center;
           background-size: cover;
-          margin: 0rem 1.25rem;
           padding: 1rem;
 
           p {

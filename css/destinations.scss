@@ -1,4 +1,5 @@
 @use './variables' as *;
+@use './mixin' as *;
 
 /* DESTINATIONS PAGE CONTENT */
 .section--hawaii {
@@ -41,10 +42,7 @@
 
     .content-card {
       background-color: $crisp-white;
-      width: 15.5rem;
-      height: 22rem;
-      border-radius: 5px;
-      margin: 0rem 1rem;
+      @include card;
       padding: 0rem 1rem 1rem 1rem;
 
       .content-card__title {
@@ -56,6 +54,7 @@
 
       .content-card__list {
         padding: 0;
+        margin-top: 2rem;
 
         .content-card__info {
           background-color: $background-peach;

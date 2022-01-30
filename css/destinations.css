@@ -39,8 +39,8 @@
 }
 .content-wrapper .card-container .content-card {
   background-color: #FFF;
-  width: 15.5rem;
-  height: 22rem;
+  width: 15.625rem;
+  height: 24rem;
   border-radius: 5px;
   margin: 0rem 1rem;
   padding: 0rem 1rem 1rem 1rem;
@@ -53,6 +53,7 @@
 }
 .content-wrapper .card-container .content-card .content-card__list {
   padding: 0;
+  margin-top: 2rem;
 }
 .content-wrapper .card-container .content-card .content-card__list .content-card__info {
   background-color: #FEFAF5;
