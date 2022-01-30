@@ -1,0 +1,112 @@
+@use './variables' as *;
+
+/* GENERAL STYLING */
+* {
+  font-family: Verdana, sans-serif;
+  box-sizing: border-box;
+  /* border: 1px dashed black; */
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* HEADER */
+header {
+  background-color: $crisp-white;
+
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70rem;
+    margin: 0 auto;
+
+    .logo-box {
+      display: flex;
+      align-items: center;
+      margin: 0;
+
+      .logo-link {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: $font-blue;
+      }
+    }
+    .nav-list {
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+
+      .nav-list__item {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        margin: 0.625rem;
+        padding-bottom: 0.5rem;
+
+        &.nav-list__item--active {
+          border-bottom: 2px solid $special-orange;
+        }
+
+        .nav-list__link {
+          text-decoration: none;
+          color: black;
+          font-size: 0.875rem
+        }
+      }
+    }
+  }
+}
+
+/* FOOTER  */
+footer {
+  background-color: $background-peach;
+  color: $font-blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .footer-container {
+    display: flex;
+
+    .footer-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 2rem;
+
+      .footer-card--week-box {
+        display: flex;
+      }
+        .footer-card__week {
+          display: flex;
+          flex-direction: column;
+          margin-right: 2rem;
+        }
+
+        .footer-card__subtitle {
+          color: $special-orange;
+          font-size: 0.6rem;
+        }
+
+        .footer-card__info {
+          font-size: 0.875rem;
+        }
+
+        .social-container {
+          display: flex;
+          margin-bottom: 1rem;
+          align-items: flex-end;
+
+          .social-icon {
+            max-width: 2rem;
+            max-height: 2rem;
+            margin-right: 2rem;
+          }
+        }
+    }
+  }
+}

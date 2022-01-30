@@ -1,0 +1,116 @@
+@use './variables' as *;
+
+/* HERO SECTION */
+.hero {
+  background-color: $background-peach;
+  display: flex;
+
+  .hero-wrapper {
+    display: flex;
+    max-width: 70rem;
+    margin: 3.125rem auto;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .hero-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 3.125rem 0rem;
+    max-width: 50%;
+
+      .hero-card__title {
+        color: $font-blue;
+        margin: 0;
+        font-size: xx-large;
+        max-width: 80%;
+      }
+
+      .hero-card__slogan {
+        color: $font-blue;
+        font-size: 0.875rem;
+        margin: 2rem 0px;
+      }
+
+      .hero-card__btn {
+        background-color: $special-orange;
+        color: $crisp-white;
+        border: none;
+        border-radius: 3.125rem;
+        max-width: 27%;
+        padding: 0.5rem;
+        font-size: 0.875rem;
+      }
+    }
+
+    .hero-img {
+      max-width: 40%;
+      display: flex;
+      max-height: 24rem;
+    }
+  }
+}
+
+/* RECOMMENDATIONS SECTION */
+.recommendations {
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+
+  .reco-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 70rem;
+    margin: 0 auto;
+
+    .reco-title {
+      color: $font-blue;
+    }
+
+    .card-container {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-top: 0.5rem;
+
+      .dest-card__name {
+        text-decoration: none;
+        color: $crisp-white;
+        font-weight: bold;
+
+        .dest-card {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          justify-content: flex-end;
+          border: 1px solid rgb(0 0 0 / 0.2);
+          border-radius: 5px;
+          width: 15.625rem;
+          height: 24rem;
+          box-shadow: 0px 4px 4px rgb(0 0 0 / 0.2);
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          margin: 0rem 1.25rem;
+          padding: 1rem;
+
+          p {
+            margin-bottom: 0;
+          }
+        }
+
+        .dest-card--hawaii {
+          background-image: url(../assets/Images/hawaii.jpg);
+        }
+
+        .dest-card--iceland {
+          background-image: url(../assets/Images/iceland.jpg);
+        }
+
+        .dest-card--greece {
+          background-image: url(../assets/Images/greece.jpg);
+        }
+      }
+    }
+  }
+}

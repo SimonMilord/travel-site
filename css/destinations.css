@@ -1,3 +1,4 @@
+/* COLOR VARIABLES */
 /* DESTINATIONS PAGE CONTENT */
 .section--hawaii {
   background: url(../assets/Images/hawaii.jpg) no-repeat center center;
@@ -27,20 +28,16 @@
   flex-direction: column;
   justify-content: center;
 }
-
-.content-title {
+.content-wrapper .content-title {
   margin: 0 0 3rem 0;
   font-size: 4rem;
   color: #FFF;
 }
-
-.card-container {
+.content-wrapper .card-container {
   display: flex;
   justify-content: center;
-
 }
-
-.content-card {
+.content-wrapper .card-container .content-card {
   background-color: #FFF;
   width: 15.5rem;
   height: 22rem;
@@ -48,23 +45,20 @@
   margin: 0rem 1rem;
   padding: 0rem 1rem 1rem 1rem;
 }
-
-.content-card__title {
+.content-wrapper .card-container .content-card .content-card__title {
   display: flex;
   justify-content: center;
   border-bottom: 2px solid black;
   margin: 1rem 0rem;
 }
-
-.content-card__list {
+.content-wrapper .card-container .content-card .content-card__list {
   padding: 0;
 }
-
-.content-card__info {
+.content-wrapper .card-container .content-card .content-card__list .content-card__info {
   background-color: #FEFAF5;
   display: flex;
   justify-content: center;
   padding: 1rem;
   list-style: none;
   margin: 1rem 0;
-}
+}/*# sourceMappingURL=destinations.css.map */
